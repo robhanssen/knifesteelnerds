@@ -61,7 +61,7 @@ hardnessmodel %>%
     facet_wrap(~quench, ncol = 1) +
     labs(
         x = "Austinizing temperature (in degF)",
-        y = "Temper temperature (in degC)",
+        y = "Temper temperature (in degF)",
         z = "Hardness range"
     ) +
     scale_x_continuous(sec.axis = sec_axis(~ 5 / 9 * (. - 32),
