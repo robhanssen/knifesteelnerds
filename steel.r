@@ -71,4 +71,4 @@ hardnessmodel %>%
         name = "Temper temperature (in degC)"
     ))
 
-ggsave("hardness-contour.png", width = 18, height = 6)
+ggsave("hardness-contour.png", width = 6, height = 18)
