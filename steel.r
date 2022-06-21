@@ -33,7 +33,7 @@ ggsave("hardness-prediction.png", width = 10, height = 8)
 hardnessmodel %>%
     tidy() %>%
     select(-statistic) %>%
-    mutate(across(estimate:std.error, ~ scales::number(.x, accuracy = .01)),
+    mutate(across(estimate:std.error, ~ scales::number(.x, accuracy = .0001)),
         p.value = scales::pvalue(p.value)
     ) %>%
     knitr::kable()
