@@ -58,7 +58,7 @@ hardnessmodel %>%
     ggplot() +
     aes(x = aust, y = temper, z = .fitted, color = .fitted) +
     geom_contour_filled(breaks = seq(56, 66, 1)) +
-    facet_wrap(~quench) +
+    facet_wrap(~quench, ncol = 1) +
     labs(
         x = "Austinizing temperature (in degF)",
         y = "Temper temperature (in degC)",
