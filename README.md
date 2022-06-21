@@ -4,4 +4,6 @@ Larin Thomas from Knifesteelnerds.com presented some interesting data in a Youtu
 
 So far, there seems to be a well-fitting model with all factor (austinizing temperature, tempering temperature and quench method).
 
-()hardness-prediction.png]
+![](hardness-prediction.png)
+
+![](hardness-contour.png)
