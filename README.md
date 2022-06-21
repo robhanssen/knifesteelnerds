@@ -2,9 +2,13 @@
 
 Larin Thomas from Knifesteelnerds.com presented some interesting data in a Youtube video. I was interested to see if a useful model could be built out of the data.
 
-So far, there seems to be a well-fitting model with all factor (austinizing temperature, tempering temperature and quench method).
+So far, there seems to be a well-fitting linear model with all factor (austinizing temperature, tempering temperature and quench method).
 
-Model parameters:
+```
+hardness ~ aust + I(aust^2) + temper + I(temper^2) + quench + quench:aust
+```
+
+with model parameters:
 ```
 |term           |estimate |std.error |p.value |
 |:--------------|:--------|:---------|:-------|
