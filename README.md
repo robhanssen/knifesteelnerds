@@ -1,6 +1,6 @@
 # knifesteelnerds
 
-Larrin Thomas from knifesteelnerds.com presented some interesting data in a (https://youtu.be/a5lzf8LA03o)[Youtube video]. I was interested to see if a useful model could be built out of the data.
+Larrin Thomas from (knifesteelnerds.com) presented some interesting data about CPM-Magnacut in a [Youtube video](https://youtu.be/a5lzf8LA03o). I was interested to see if a useful model could be built out of the data.
 
 So far, there seems to be a well-fitting linear model with all factor (austinizing temperature, tempering temperature and quench method).
 
